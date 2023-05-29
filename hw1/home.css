@@ -1,0 +1,227 @@
+body
+{
+    margin:0;
+    font-size: 16px;
+    font-style: 'Raleway','serif';
+}
+@media (max-width: 500px) {
+    body {
+      font-size: 8px;
+    }
+}
+
+header
+{
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(sfondo.jpeg);
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+@media (max-width: 500px) {
+    header {
+      height: 280px;
+      line-height: 1.2;
+    }
+}
+
+nav
+{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+
+    top: 10px;
+    left:0px;
+    right: 50px;
+
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#Titolo
+{
+    color: black;
+    border: 4px solid black;
+    border-radius: 7px;
+    font-size: 40px;
+    background-color: ghostwhite;
+    margin-left: 5px;
+}
+@media (max-width: 500px) {
+	#Titolo {
+	  font-size:17.5px ;
+	}
+}
+#link
+{
+    color: black;
+    letter-spacing: 5px;
+    margin:20px;
+}
+
+#link:link
+{
+    color: black;
+}
+#link:visited
+{
+    color:black;
+}
+
+.bottone
+{
+  border:2px solid black ;
+  width: fit-content;
+  border-radius: 11px;
+  padding: 4px;
+  cursor: pointer;
+  margin-top: -10px;
+  background-color: ghostwhite;
+}
+
+button
+{
+    height: 30px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    background-color: ghostwhite;
+    cursor: pointer;
+}
+header h1
+{
+    display: block;
+    margin: 15%;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: lightcoral;
+    background: floralwhite;
+    padding-left: 5%;
+}
+@media (max-width: 500px) {
+    header h1 {
+      font-size: 20px;
+      letter-spacing: 0.75px;
+    }
+  }
+
+header h3
+{
+    color: initial;
+    margin-left: 17%;
+    margin-top: -12%;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#Menu
+{
+    height: 500px;
+    margin: 75px 100px;
+    text-align: center;
+    background-color:gray;
+}
+@media (max-width: 500px) {
+    #Menu {
+        height: 450px;
+        margin: 32.5px 50px;
+    }
+  }
+  @media (max-width: 500px) {
+    #Menu h1  {
+      letter-spacing: 0.5px;
+      font-size: 15px;
+    }
+  }
+
+#flexbox
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    #flexbox {
+      flex-direction: column;
+    }
+  }
+
+#flexbox #blocco1 img
+{
+    width: 300px;
+    padding-top: 10px;
+    height: 238px;
+}
+@media (max-width: 500px) {
+    #flexbox #blocco1 img {
+      width:50% ;
+      padding-top: 5px;
+      height: 50%;
+    }
+  }
+#flexbox #blocco2 img
+{
+    width: 300px;
+    padding-top: 10px;
+    height: 238px;
+}
+@media (max-width: 500px) {
+    #flexbox #blocco2 img {
+      width:50% ;
+      padding-top: 5px;
+      height: 50%;
+    }
+  }
+
+footer
+{
+    height: 100px;
+    background-color:gray;
+    text-align: center;
+    letter-spacing: 1px;
+}
+@media (max-width: 500px) {
+    footer {
+      letter-spacing: 0.5px;
+    }
+  }
+footer h1
+{
+    font-size: 20px;
+    color: whitesmoke;
+}
+@media (max-width: 500px) {
+    footer h1 {
+      font-size:10px;
+    }
+  }
+  #mobile {
+    display: none;
+  }
+  
+  #mobile div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 500px) 
+  {
+    #link {
+      display: none;
+    }
+    .bottone
+    {
+        display: none;
+    }
+  
+    #mobile {
+      display: block;
+    }
+}

@@ -1,0 +1,118 @@
+body
+{
+    margin:0;
+    font-size: 16px;
+    font-style: 'Raleway','serif';
+}
+@media (max-width: 500px) {
+    body {
+      font-size: 8px;
+    }
+}
+
+header
+{
+    height: fit-content;
+    background-position: center;
+    background-size: cover;
+    background-image: url(sfondo.jpeg);
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+@media (max-width: 500px) {
+    header {
+      height: 280px;
+      line-height: 1.2;
+    }
+}
+
+nav
+{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+
+    top: 10px;
+    left:0px;
+    right: 50px;
+
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#Titolo
+{
+    color: black;
+    border: 4px solid black;
+    border-radius: 7px;
+    font-size: 40px;
+    background-color: ghostwhite;
+    margin-left: 5px;
+}
+@media (max-width: 500px) {
+	#Titolo {
+	  font-size:17.5px ;
+	}
+}
+#link
+{
+    color: black;
+    letter-spacing: 5px;
+    margin:20px;
+}
+
+#link:link
+{
+    color: black;
+}
+#link:visited
+{
+    color:black;
+}
+
+#contenuto
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+}
+#lista_recensioni
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    background: azure;
+    margin: 1%;
+    border-radius: 10px;
+}
+.bottone
+{
+    border:2px solid black ;
+    width: fit-content;
+    border-radius: 11px;
+    padding: 4px;
+    cursor: pointer;
+    margin-top: -10px;
+}
+.introduzione
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: cursive;
+    margin-top: -1%;
+    color: darkblue;
+}
+.descrizione
+{
+    font-family: cursive;
+    color: darkblue;
+    margin-top: -1%
+}
